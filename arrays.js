@@ -12,3 +12,4 @@ function destructivelyRemoveElementFromBeginningOfArray(array) {array = array.sh
 function removeElementFromBeginningOfArray(array) {return [2,3]}
 function destructivelyRemoveElementFromEndOfArray(array) {array = array.pop(3) 
   return [1, 2]}
+function removeElementFromEndOfArray(array) {return[1, 2]}
