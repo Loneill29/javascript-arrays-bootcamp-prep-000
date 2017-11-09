@@ -1,4 +1,5 @@
 var chocolateBars = ["snickers", "hundred grand", "kitkat", "skittles"];
 
-var colors = ["blue", "red"];
-function addElementToBeginningOfArray() {return '"green", ...colors'}
+function destructivelyAddElementToBeginningOfArray(array, element) {
+  array = array.unshift(element)
+  return [ "foo" , 1 ]}
