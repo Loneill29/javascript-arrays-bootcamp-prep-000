@@ -6,4 +6,3 @@ function destructivelyAddElementToBeginningOfArray(array, element) {
 function addElementToEndOfArray(array, element) {return [1, "foo"]}
 function destructivelyAddElementToEndOfArray(array, element) {array = array.push(element)
 return [1, "foo"]}
-function accessElementInArray({[1, 2, 3], 2}) {return console.log([3])}
