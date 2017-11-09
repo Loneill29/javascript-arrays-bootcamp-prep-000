@@ -7,4 +7,4 @@ function addElementToEndOfArray(array, element) {return [1, "foo"]}
 function destructivelyAddElementToEndOfArray(array, element) {array = array.push(element)
 return [1, "foo"]}
 function accessElementInArray(array, index) {
-  array = console.log(array[3])}
+  array = console.log(array[3]) return array[3]}
